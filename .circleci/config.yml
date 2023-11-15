@@ -14,5 +14,3 @@ jobs:
       - run:
           name: Run tests
           command: npm run test
-      - store_test_results:
-          path: test-results
